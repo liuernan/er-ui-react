@@ -3,7 +3,17 @@
   "version": "0.0.1",
   "description": "a React UI library",
   "main": "index.js",
-  "repository": "https://github.com/liuernan/er-ui-react",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuernan/er-ui-react.git"
+  },
   "author": "Jiawei <liujiaweidreamer@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/liuernan/er-ui-react/issues"
+  },
+  "homepage": "https://github.com/liuernan/er-ui-react#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
