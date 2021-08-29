@@ -1,0 +1,9 @@
+{
+  "name": "er-ui-react",
+  "version": "0.0.1",
+  "description": "a React UI library",
+  "main": "index.js",
+  "repository": "https://github.com/liuernan/er-ui-react",
+  "author": "Jiawei <liujiaweidreamer@gmail.com>",
+  "license": "MIT"
+}
