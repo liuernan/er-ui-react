@@ -1,9 +1,10 @@
 const path = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/index.tsx',
   output: {
-    filename: 'main.js',
+    filename: '[name]_bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
   resolve: {
@@ -15,5 +16,10 @@ module.exports = {
       // all files with a `.ts` or `.tsx` extension will be handled by `ts-loader`
       {test: /\.tsx?$/, loader: 'ts-loader'}
     ]
-  }
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: "erUI React"
+    })
+  ]
 };
