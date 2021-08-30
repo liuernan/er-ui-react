@@ -1,4 +1,5 @@
 const path = require('path');
+const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
@@ -6,6 +7,7 @@ module.exports = {
   output: {
     filename: '[name]_bundle.js',
     path: path.resolve(__dirname, 'dist')
+    // clean: true  // webpack 5
   },
   resolve: {
     // Add `.ts` and `.tsx` as a resolvable extension.
@@ -18,8 +20,9 @@ module.exports = {
     ]
   },
   plugins: [
+    new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
-      title: "erUI React"
+      title: 'erUI React'
     })
   ]
 };
