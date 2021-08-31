@@ -1334,6 +1334,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-test-renderer@^17.0.1":
+  version "17.0.1"
+  resolved "https://registry.nlark.com/@types/react-test-renderer/download/@types/react-test-renderer-17.0.1.tgz?cache=0&sync_timestamp=1629708985810&other_urls=https%3A%2F%2Fregistry.nlark.com%2F%40types%2Freact-test-renderer%2Fdownload%2F%40types%2Freact-test-renderer-17.0.1.tgz#3120f7d1c157fba9df0118dae20cb0297ee0e06b"
+  integrity sha1-MSD30cFX+6nfARja4gywKX7g4Gs=
+  dependencies:
+    "@types/react" "*"
+
 "@types/react@*", "@types/react@^17.0.19":
   version "17.0.19"
   resolved "https://registry.nlark.com/@types/react/download/@types/react-17.0.19.tgz#8f2a85e8180a43b57966b237d26a29481dacc991"
