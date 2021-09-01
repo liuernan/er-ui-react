@@ -1,3 +1,4 @@
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 const baseConfig = require('./webpack.config');
 
 module.exports = Object.assign({}, baseConfig, {
@@ -5,5 +6,10 @@ module.exports = Object.assign({}, baseConfig, {
   devtool: 'inline-source-map',
   devServer: {
     static: './dist'
-  }
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      title: 'erUI React'
+    })
+  ]
 });
