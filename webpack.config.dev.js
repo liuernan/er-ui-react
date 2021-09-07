@@ -9,7 +9,8 @@ module.exports = Object.assign({}, baseConfig, {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      title: 'erUI React'
+      title: 'erUI React',
+      template: 'index.html'
     })
   ]
 });
