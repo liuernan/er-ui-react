@@ -23,8 +23,8 @@ const App = () => {
   return (
     <div>
       <div>hi</div>
-      <Icon name='heart' onClick={fn}/>
-      <Icon name='github-fill' onMouseEnter={fn2}/>
+      <Icon name='heart' onClick={fn} className="custom-style xxx"/>
+      <Icon name='github-fill' onMouseEnter={fn2} className='xxx'/>
       <Icon name='up' onMouseLeave={fn3}/>
       <Icon name='down' onTouchStart={fn4}/>
       <Icon name='left'/>
