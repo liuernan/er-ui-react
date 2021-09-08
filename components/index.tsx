@@ -1,10 +1,12 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import Icon from './icon/Icon';
+import '../styles/global.scss'
 
 const App = () => {
   return (
     <div>
+      <div>hi</div>
       <Icon name='heart'/>
       <Icon name='github-fill'/>
       <Icon name='up'/>
