@@ -1,7 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import Icon from './icon/Icon';
-import '../styles/global.scss';
 
 const fn = () => {
   console.log('click');
