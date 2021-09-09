@@ -3,5 +3,5 @@ try {
   // @ts-ignore
   importAllSVG(require.context('./svg/', true, /\.svg$/))
 } catch (error) {
-  console.log(error)
+  // console.log(error)
 }
