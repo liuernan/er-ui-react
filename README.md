@@ -1,5 +1,5 @@
 # er-ui-react
 
-[![CircleCI](https://circleci.com/gh/liuernan/er-ui-react/tree/main.svg?style=svg)](https://circleci.com/gh/liuernan/er-ui-react/tree/main)
+![CircleCI](https://img.shields.io/circleci/build/github/liuernan/er-ui-react/main)
 
 a React UI library
