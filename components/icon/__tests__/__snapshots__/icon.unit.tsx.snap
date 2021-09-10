@@ -19,23 +19,3 @@ exports[`Icon rendering successfully 1`] = `
   />
 </svg>
 `;
-
-exports[`icon has custom class names 1`] = `
-<svg
-  className="er-ui-icon custom custom2"
->
-  <use
-    xlinkHref="#heart"
-  />
-</svg>
-`;
-
-exports[`icon render successfully 1`] = `
-<svg
-  className="er-ui-icon"
->
-  <use
-    xlinkHref="#heart"
-  />
-</svg>
-`;
