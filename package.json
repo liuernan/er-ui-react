@@ -1,7 +1,23 @@
 {
   "name": "er-ui-react",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a React UI library",
+  "keywords": [
+    "component",
+    "components",
+    "frontend",
+    "react",
+    "react-component",
+    "ui"
+  ],
+  "files": [
+    "dist",
+    "package.json",
+    "README",
+    "CHANGES",
+    "LICENSE",
+    "NOTICE"
+  ],
   "main": "index.js",
   "repository": {
     "type": "git",
