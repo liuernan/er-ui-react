@@ -1,6 +1,6 @@
 {
   "name": "er-ui-react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "a React UI library",
   "keywords": [
     "component",
@@ -18,7 +18,7 @@
     "LICENSE",
     "NOTICE"
   ],
-  "main": "index.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/liuernan/er-ui-react.git"

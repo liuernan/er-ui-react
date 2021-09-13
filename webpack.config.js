@@ -3,7 +3,15 @@ const path = require('path');
 module.exports = {
   entry: './components/index.tsx',
   output: {
-    filename: '[name]_bundle.js',
+    library: { // There is also an old syntax for this available (click to show)
+      type: "umd", // universal module definition
+      // the type of the exported library
+      name: "er-ui-react", // string | string[]
+      // the name of the exported library
+
+      /* Advanced output.library configuration (click to show) */
+    },
+    filename: 'index.js',
     path: path.resolve(__dirname, 'dist')
     // clean: true  // webpack 5
   },
